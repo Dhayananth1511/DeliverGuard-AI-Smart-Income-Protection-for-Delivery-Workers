@@ -295,7 +295,7 @@ creating a scalable **gig economy insurance platform**.
 # Repository
 
 ```
-deliverguard-ai
+DeliverGuard-AI-Smart-Income-Protection-for-Delivery-Workers
 ```
 
 This repository will be used throughout **all phases of the hackathon development**.
