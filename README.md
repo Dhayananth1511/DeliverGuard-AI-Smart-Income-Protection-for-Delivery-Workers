@@ -4,7 +4,7 @@
 
 ---
 <center>
-<img src="Visual.png"></center>
+<img src="Visual.png" style="width:50px"></center>
 
 ---
 # Overview
@@ -46,7 +46,7 @@ DeliverGuard AI addresses this problem by providing **automated micro‑insuranc
 **City:** Chennai  
 ---
 <center>
-<img src="Deliver.png"></center>
+<img src="Deliver.jpg" style="width:50px"></center>
 
 ---
 **Daily Work**
@@ -181,7 +181,7 @@ Future versions may include **mobile applications for delivery workers**.
 
 ---
 <center>
-<img src="Flow.png"></center>
+<img src="Flow.png" style="width:50px"></center>
 
 ---
 # Technology Stack
