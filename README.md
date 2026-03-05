@@ -1,16 +1,21 @@
-
 # DeliverGuard AI
 ### Smart Income Protection for Delivery Workers
 
----
-<center>
-<img src="Visual.png" >
-</center>
+DeliverGuard AI is a **parametric micro‑insurance platform** that automatically compensates delivery workers when disruptions such as heavy rain reduce their income.
 
 ---
+
+## Visual Overview
+
+<p align="center">
+<img src="Visual.png" width="900">
+</p>
+
+---
+
 # Overview
 
-DeliverGuard AI is an **AI-powered parametric insurance platform** designed to protect **food delivery workers from income loss caused by weather disruptions** such as heavy rainfall.
+DeliverGuard AI is an **AI‑powered parametric insurance platform** designed to protect **food delivery workers from income loss caused by weather disruptions** such as heavy rainfall.
 
 Food delivery partners working for platforms like **Swiggy and Zomato** rely on daily deliveries to earn income. External disruptions like **heavy rain, flooding, or extreme weather conditions** can drastically reduce delivery activity, resulting in immediate income loss.
 
@@ -31,7 +36,7 @@ In cities like **Chennai**, heavy rainfall frequently causes:
 
 During such disruptions, delivery workers may lose **₹300–₹500 of daily income**.
 
-Currently, traditional insurance products **do not cover short-term income disruption for gig workers**, leaving them financially vulnerable.
+Currently, traditional insurance products **do not cover short‑term income disruption for gig workers**, leaving them financially vulnerable.
 
 DeliverGuard AI addresses this problem by providing **automated micro‑insurance designed specifically for delivery workers**.
 
@@ -43,26 +48,25 @@ DeliverGuard AI addresses this problem by providing **automated micro‑insuranc
 
 **Name:** Arjun  
 **Age:** 27  
-**Platform:** Swiggy Delivery Partner  
-**City:** Chennai  
----
-<center>
-<img src="Deliver.jpg" style="width:500px">
-</center>
+**Occupation:** Swiggy Delivery Partner  
+**City:** Chennai
 
----
-**Daily Work**
+<p align="center">
+<img src="Deliver.jpg" width="500">
+</p>
+
+### Daily Work
 
 - Works around 8 hours per day
 - Completes 18–25 deliveries
-- Earns ₹900–₹1200 daily
+- Earns ₹900–₹1200 per day
 
 ### Disruption Scenario
 
 During heavy rain:
 
 - Delivery demand drops significantly
-- Some restaurants close temporarily
+- Restaurants close temporarily
 - Roads become difficult to navigate
 
 Arjun may lose **3–4 hours of work**, resulting in **₹300–₹500 income loss**.
@@ -73,13 +77,13 @@ DeliverGuard AI protects workers like Arjun by providing **automatic financial c
 
 # Weekly Premium Model
 
-DeliverGuard AI provides **micro-insurance policies with weekly coverage**.
+DeliverGuard AI provides **micro‑insurance policies with weekly coverage**.
 
 ### Example Insurance Plan
 
-**Weekly Premium:** ₹12  
+Weekly Premium: **₹12**
 
-**Coverage Duration:** 7 Days
+Coverage Duration: **7 Days**
 
 ### Claim Trigger Conditions
 
@@ -88,7 +92,7 @@ DeliverGuard AI provides **micro-insurance policies with weekly coverage**.
 
 ### Payout Amount
 
-₹350
+**₹350**
 
 This helps workers recover **temporary income loss caused by environmental disruptions**.
 
@@ -110,7 +114,7 @@ Heavy rainfall detected using weather APIs.
 
 Delivery order activity drops significantly.
 
-If both triggers occur → **automatic payout is triggered**.
+When both signals occur → **automatic payout is triggered**.
 
 This makes the system **fast, transparent, and efficient**.
 
@@ -125,7 +129,7 @@ Artificial Intelligence powers multiple components of DeliverGuard AI.
 AI analyzes historical data such as:
 
 - rainfall patterns
-- flood-prone zones
+- flood‑prone zones
 - delivery demand trends
 
 This helps determine **risk scores for different delivery zones** and enables dynamic premium pricing.
@@ -162,9 +166,9 @@ The prototype will initially be built as a **Web Platform**.
 
 ### Reasons
 
-- faster development during hackathon
-- easier API integration
-- accessible across devices
+- Faster development during hackathon
+- Easy API integration
+- Accessible across devices
 
 Future versions may include **mobile applications for delivery workers**.
 
@@ -179,13 +183,36 @@ Future versions may include **mobile applications for delivery workers**.
 5. Delivery order activity drops significantly  
 6. AI verifies disruption  
 7. Insurance claim automatically triggered  
-8. Payout sent instantly to worker
+8. Payout sent instantly to worker  
+
+<p align="center">
+<img src="Flow.png" width="700">
+</p>
 
 ---
-<center>
-<img src="Flow.png" ></center>
+
+# System Architecture
+
+The DeliverGuard AI system consists of several components:
+
+Worker App  
+↓  
+Insurance Platform Backend  
+↓  
+AI Risk Engine  
+↓  
+Weather API & Delivery Data  
+↓  
+Disruption Detection Engine  
+↓  
+Claim Trigger System  
+↓  
+Payment Gateway  
+↓  
+Worker Receives Payout
 
 ---
+
 # Technology Stack
 
 ### Frontend
@@ -198,12 +225,12 @@ Python FastAPI
 PostgreSQL
 
 ### AI / ML
-Python (Scikit-learn)
+Python (Scikit‑learn)
 
 ### External APIs
 
-Weather Data API – OpenWeatherMap  
-Maps API – Google Maps  
+OpenWeatherMap – Weather Data  
+Google Maps API – Location Services
 
 ### Payments
 
@@ -215,21 +242,11 @@ AWS / Render / Vercel
 
 ---
 
-# Architecture Diagram
-
-The DeliverGuard AI system consists of multiple components:
-
-Worker App → Insurance Platform → AI Risk Engine → Weather API → Claim Trigger Engine → Payment System.
-
-The system continuously analyzes weather data and delivery activity signals to detect disruptions and automatically process payouts.
-
----
-
 # Unique Features
 
 ## Hyper‑Local Weather Detection
 
-Insurance triggers are calculated at **delivery zone level instead of city level**, improving fairness.
+Insurance triggers are calculated at **delivery zone level instead of city level**, improving fairness and accuracy.
 
 ---
 
@@ -245,13 +262,13 @@ The system verifies disruptions using multiple signals:
 
 ## AI Risk Heatmap
 
-Admin dashboard visualizes **high-risk zones in the city** using an AI-generated disruption risk map.
+Admin dashboard visualizes **high‑risk zones in the city** using an AI‑generated disruption risk map.
 
 ---
 
 ## Smart Premium Calculator
 
-Premiums are dynamically adjusted based on:
+Premiums dynamically adjust based on:
 
 - weather history
 - disruption frequency
@@ -263,7 +280,22 @@ Premiums are dynamically adjusted based on:
 
 Workers receive predictive alerts such as:
 
-"Heavy rain expected in your zone within 2 hours."
+> "Heavy rain expected in your zone within 2 hours."
+
+This helps workers **prepare for potential disruptions**.
+
+---
+
+# Demo Scenario
+
+Example workflow:
+
+1. Delivery worker purchases **₹12 weekly insurance**
+2. Heavy rainfall occurs in Chennai
+3. Delivery orders drop by **more than 30%**
+4. DeliverGuard AI detects disruption
+5. Insurance payout **₹350 automatically triggered**
+6. Worker receives compensation instantly
 
 ---
 
@@ -271,22 +303,26 @@ Workers receive predictive alerts such as:
 
 ## Phase 1 – Ideation & Foundation
 
-- problem research
-- persona analysis
-- insurance model design
-- architecture planning
+- Problem research
+- Persona analysis
+- Insurance model design
+- Architecture planning
+
+---
 
 ## Phase 2 – Platform Development
 
-- worker onboarding
-- insurance policy management
-- weather monitoring integration
+- Worker onboarding
+- Insurance policy management
+- Weather monitoring integration
+
+---
 
 ## Phase 3 – Intelligence & Automation
 
 - AI risk prediction
-- fraud detection
-- automated payout system
+- Fraud detection
+- Automated payout system
 
 ---
 
@@ -294,16 +330,15 @@ Workers receive predictive alerts such as:
 
 DeliverGuard AI improves **financial resilience for gig workers** by protecting them from sudden income loss caused by environmental disruptions.
 
-The platform can eventually expand to support:
+The platform can expand to support:
 
 - multiple cities
 - grocery delivery workers
-- e-commerce delivery partners
+- e‑commerce delivery partners
 
-creating a scalable **gig economy insurance platform**.
+creating a scalable **gig‑economy insurance platform**.
 
 ---
-
 
 # Repository
 
@@ -317,4 +352,10 @@ This repository will be used throughout **all phases of the hackathon developmen
 
 # Strategy Video
 
-A **2-minute strategy video** explaining the idea, architecture, and execution plan will be uploaded to a publicly accessible link and shared during submission.
+A **2‑minute strategy video** explaining the idea, architecture, and execution plan will be uploaded and shared during submission.
+
+---
+
+# Hackathon
+
+Project developed for **Guidewire DEVTrails Pan‑India Hackathon**.
