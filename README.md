@@ -4,7 +4,7 @@
 
 ---
 <center>
-<img src="Visual.png" style="width:1000px">
+<img src="Visual.png" >
 </center>
 
 ---
