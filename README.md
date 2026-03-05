@@ -3,7 +3,10 @@
 ### Smart Income Protection for Delivery Workers
 
 ---
+<center>
+<img src="Visual.png"></center>
 
+---
 # Overview
 
 DeliverGuard AI is an **AI-powered parametric insurance platform** designed to protect **food delivery workers from income loss caused by weather disruptions** such as heavy rainfall.
@@ -41,7 +44,11 @@ DeliverGuard AI addresses this problem by providing **automated micro‑insuranc
 **Age:** 27  
 **Platform:** Swiggy Delivery Partner  
 **City:** Chennai  
+---
+<center>
+<img src="Deliver.png"></center>
 
+---
 **Daily Work**
 
 - Works around 8 hours per day
@@ -173,7 +180,10 @@ Future versions may include **mobile applications for delivery workers**.
 8. Payout sent instantly to worker
 
 ---
+<center>
+<img src="Flow.png"></center>
 
+---
 # Technology Stack
 
 ### Frontend
@@ -291,6 +301,7 @@ The platform can eventually expand to support:
 creating a scalable **gig economy insurance platform**.
 
 ---
+
 
 # Repository
 
