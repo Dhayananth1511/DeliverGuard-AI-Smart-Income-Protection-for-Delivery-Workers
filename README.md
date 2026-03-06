@@ -253,18 +253,70 @@ PostgreSQL
 ### AI / ML
 Python (Scikit‑learn)
 
-### External APIs
+---
 
-OpenWeatherMap – Weather Data  
-Google Maps API – Location Services  
+# External APIs Used
 
-### Payments
+DeliverGuard AI relies on several external APIs to detect disruptions and process insurance triggers.
 
-Razorpay Sandbox / Mock UPI
+### Weather Data API
+Used to monitor real‑time weather conditions such as rainfall and extreme weather.
 
-### Hosting
+Example:
+- OpenWeatherMap API
 
-AWS / Render / Vercel
+Purpose:
+- Detect heavy rain
+- Identify weather disruptions
+- Trigger parametric insurance payouts
+
+---
+
+### Maps & Location API
+Used to verify worker location and determine affected delivery zones.
+
+Example:
+- Google Maps API
+
+Purpose:
+- Verify worker GPS location
+- Identify disruption zones
+- Map delivery areas
+
+---
+
+### Traffic Data API (Optional)
+Used to detect road congestion or traffic disruptions affecting deliveries.
+
+Example:
+- Google Maps Traffic API
+
+Purpose:
+- Detect delivery slowdowns caused by traffic
+
+---
+
+### Payment API
+Used to simulate automatic insurance payouts.
+
+Example:
+- Razorpay API (Sandbox)
+
+Purpose:
+- Process compensation payments to workers
+
+---
+
+### Notification API (Optional)
+Used to send disruption alerts and payout notifications.
+
+Examples:
+- Firebase Cloud Messaging
+- Twilio SMS API
+
+Purpose:
+- Notify workers about disruptions
+- Send payout alerts
 
 ---
 
