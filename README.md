@@ -2,6 +2,7 @@
 ### Smart Income Protection for Delivery Workers
 
 DeliverGuard AI is a **parametric micro‑insurance platform** that automatically compensates delivery workers when disruptions such as heavy rain reduce their income.
+<br>
 DeliverGuard AI supports multiple delivery disruptions including heavy rain, floods, extreme weather, traffic disruptions, and sudden drops in delivery demand.
 ---
 
