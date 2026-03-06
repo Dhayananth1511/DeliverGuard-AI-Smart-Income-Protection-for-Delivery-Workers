@@ -12,7 +12,7 @@ Instead of requiring workers to manually submit claims, DeliverGuard AI automati
 # Visual Overview
 
 <p align="center">
-<img src="Visual.png" width="900">
+<img src="Visualv2.png" width="900">
 </p>
 
 ---
